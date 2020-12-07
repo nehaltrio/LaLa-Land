@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color:#2980B9;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #3189c4;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <title>Order | la la land</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myFunction.js"></script>
+</head>
+
+<body style="background-image: url(images.jpeg);background-size: cover;">
+    <header>
+        <h1 style="text-align: center;color:white;background-color: rgb(90, 170, 240);width:100%; font-family: Impact;">
+            La
+            La LAND</h1>
+    </header>
+
+    <div class="container">
+        <div class="menu">
+
+            <br>
+
+            <a href="admin.html" class="adm-btn">Admin</a>
+            <ul>
+                <li><a href="index.html" style=text-decoration:none;color:white;>Home</a></li>
+                <li><a href="order.html" style=text-decoration:none;color:white;>Order</a></li>
+                <li><a href="contact.html" style=text-decoration:none;color:white;>Contact</a></li>
+                <li><a href="menu.html" style=text-decoration:none;color:white;>Menu</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Events</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Halloween</a>
+                    <a href="#">Eid</a>
+                    <a href="#">New year</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="form">
+        <br>
+
+        <p>
+        <h1>Log in panel</h1>
+        </p>
+        <br>
+        <div class="input">
+            <form>
+                <label for="fname">User Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Type your username..">
+
+                <label for="lname">Password</label>
+                <input type="password" id="pass" name="pass" placeholder="Type your password..">
+              
+
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+    <br>
+    <div class="footer">
+        <footer>
+            <img src="logo.jpg" alt="logo" class="center">
+        </footer>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="center2">
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.facebook.com/"><img src="fb-logo.webp" alt="Snow" style="width: 50px;"></a>
+                </div>
+                <div class="column">
+                    <a href="https://www.instagram.com/"><img src="insta-logo.webp" alt="Forest"
+                            style="width: 33px;"></a>
+                </div>
+                <div class="column">
+                    <a href="https://twitter.com/"><img src="twit-logo.webp" alt="Mountains" style="width:35px"></a>
+                </div>
+                <div class="column">
+                    <p style="font-family: Impact; color:white;position: absolute; right: 80px; text-align: center;">
+                        Email:lalaland@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
